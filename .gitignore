@@ -33,4 +33,11 @@
 # Personal
 *.pdb
 *.exp
-*.ich
+*.tlog
+*.ilk
+*.ipch
+*.user
+*.suo
+
+# Folders
+FickleManette/Temp/
