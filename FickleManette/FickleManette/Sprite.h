@@ -9,7 +9,6 @@ public:
 
 	virtual void Draw(Drawer & aDrawer) const override;
 private:
-	sf::Texture myTexture;
 	sf::Sprite mySprite;
 };
 

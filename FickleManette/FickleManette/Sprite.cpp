@@ -1,5 +1,7 @@
 #include "stdafx.h"
 #include "Sprite.h"
+#include "ResourceManager.h"
+#include "Texture.h"
 
 void Sprite::Draw(Drawer & aDrawer) const
 {
@@ -8,6 +10,6 @@ void Sprite::Draw(Drawer & aDrawer) const
 
 Sprite::Sprite(const std::string & aPath)
 {
-	myTexture.loadFromFile(aPath);
-	mySprite.setTexture(myTexture);
+	mySprite.setTexture(ResourceManager<Texture>::GetInstance()->GetResource(aPath));
+	mySprite.setOrigin(sf::Vector2f(mySprite.getTexture()->getSize()) / 2.f);
 }

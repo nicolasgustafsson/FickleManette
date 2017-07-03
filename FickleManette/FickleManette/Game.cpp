@@ -2,10 +2,9 @@
 #include "Game.h"
 
 Game::Game()
+	:mySprite("Textures/spark.png")
 {
-	static sf::Texture texture;
-	texture.loadFromFile("Textures/spark.png");
-	mySprite.setTexture(texture);
+
 }
 
 
@@ -20,5 +19,5 @@ void Game::Update()
 
 void Game::Draw(Drawer & aDrawer) const
 {
-	aDrawer.Draw(mySprite);
+	mySprite.Draw(aDrawer);
 }

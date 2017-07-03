@@ -1,5 +1,6 @@
 #pragma once
 #include "Drawable.h"
+#include "Sprite.h"
 
 class Game : public IDrawable
 {
@@ -11,6 +12,6 @@ public:
 	virtual void Draw(Drawer & aDrawer) const override;
 
 private:
-	sf::Sprite mySprite;
+	Sprite mySprite;
 };
 

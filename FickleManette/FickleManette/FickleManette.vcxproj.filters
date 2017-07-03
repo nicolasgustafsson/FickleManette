@@ -20,6 +20,18 @@
     <ClInclude Include="ClassRestrict.h">
       <Filter>Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FickleManette.cpp" />
@@ -52,6 +64,9 @@
     </Filter>
     <Filter Include="Utilities">
       <UniqueIdentifier>{15df7a48-7e59-4d07-b785-f28ede6d50f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{4e9bd756-d37b-4a9f-a8b6-f8c763dd8b80}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
