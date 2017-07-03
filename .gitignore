@@ -40,6 +40,8 @@
 *.suo
 *.db
 *.opendb
+*.ipdb
+*.iobj
 
 # Folders
 FickleManette/Temp/
