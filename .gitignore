@@ -39,6 +39,7 @@
 *.user
 *.suo
 *.db
+*.opendb
 
 # Folders
 FickleManette/Temp/
