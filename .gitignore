@@ -38,6 +38,7 @@
 *.ipch
 *.user
 *.suo
+*.db
 
 # Folders
 FickleManette/Temp/
