@@ -159,6 +159,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Console.h" />
     <ClInclude Include="Drawable.h" />
     <ClInclude Include="Drawer.h" />
     <ClInclude Include="Game.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="WindowLoop.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Console.cpp" />
     <ClCompile Include="Drawable.cpp" />
     <ClCompile Include="Drawer.cpp" />
     <ClCompile Include="FickleManette.cpp" />

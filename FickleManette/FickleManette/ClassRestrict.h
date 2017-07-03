@@ -20,7 +20,7 @@ public:
 	Nonmoveable(const Nonmoveable && aOther) = delete;
 };
 
-//cant copy nor move
+//cant copy nor move - should probably change this to a not stupid name
 class ConstructOnly : public Nonmoveable, public Noncopyable
 {
 public:

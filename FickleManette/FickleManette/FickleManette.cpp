@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include "WindowLoop.h"
+#include "Singleton.h"
 
 int main()
 {

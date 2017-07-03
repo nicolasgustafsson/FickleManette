@@ -32,6 +32,9 @@
     <ClInclude Include="Resource.h">
       <Filter>Resources</Filter>
     </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Utilities\Console</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FickleManette.cpp" />
@@ -51,6 +54,9 @@
     <ClCompile Include="Sprite.cpp">
       <Filter>Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Utilities\Console</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="WindowLoop">
@@ -67,6 +73,9 @@
     </Filter>
     <Filter Include="Resources">
       <UniqueIdentifier>{4e9bd756-d37b-4a9f-a8b6-f8c763dd8b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Console">
+      <UniqueIdentifier>{c52f8731-02bb-4fbf-8859-94ea5c037bbb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

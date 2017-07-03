@@ -1,6 +1,7 @@
 #pragma once
 #include <unordered_map>
 #include "Singleton.h"
+#include "Console.h"
 
 //super basic resource manager to prevent duplication of resources
 template<typename T>
@@ -18,8 +19,12 @@ private:
 template<typename T>
 T & ResourceManager<T>::CreateResource(const std::string & aPath)
 {
-	T resource = T(aPath);
-	myResourceMap[aPath] = resource;
+	sf::Clock clock;
+	myResourceMap[aPath] = T(aPath);
+	float time = clock.getElapsedTime().asSeconds();
+
+	Console::Print(std::string("[RESOURCE] Resource of type ") + typeid(T).name() + " created! Time taken: " + std::to_string(time) + " seconds.", EConsoleColor::Aqua);
+
 	return myResourceMap[aPath];
 }
 
